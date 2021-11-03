@@ -31,7 +31,21 @@
 
 /* Iteración #3: Probando For...of      Usa un bucle forof para recorrer todos los destinos del array. Imprime en un console.log sus valores.}*/
 
-const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+// const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
 
-for (let place of placesToTravel) {
-    console.log(place)};
+// for (let place of placesToTravel) {
+//     console.log(place)};
+
+
+/* Iteración #4  Iteración #4: Probando For...in        Usa un for...in para imprimir por consola los datos del alienígena. */
+
+const alien = {
+    name: 'Wormuck',
+    race: 'Cucusumusu',
+    planet: 'Eden',
+    weight: '259kg'
+}
+
+for (let clave in alien) {
+    console.log(alien[clave]); 
+}
